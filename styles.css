@@ -1,7 +1,7 @@
 main{
     width: 50%;
     margin: 0 auto;
-    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
 }
 .container-img {
     display:flex;
@@ -9,4 +9,31 @@ main{
     align-items: center;
     justify-content: center;
     
+}
+.container-img img{
+    border-radius: 15px;
+}
+
+.discount,.name{
+    background-color: rgb(226,33,16);
+    color:white;
+    font-weight: bold;
+    
+}
+.discount{
+    padding: 10px;
+    position: absolute;
+    top:50px;
+    right: 425px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.settings-icon{
+    width: 25px;
+    
+}
+.name{
+    padding: 10px;
+    border-radius: 10px;
 }
