@@ -1,7 +1,12 @@
 main{
-    width: 50%;
-    margin: 0 auto;
+    width: 40%;
+    /* margin: 0 auto; */
     font-family: 'Raleway', sans-serif;
+    border:1px solid black;
+    position: absolute;
+    right: 30%;
+    left: 30%;
+ 
 }
 .container-img {
     display:flex;
@@ -9,9 +14,11 @@ main{
     align-items: center;
     justify-content: center;
     
+    
 }
 .container-img img{
     border-radius: 15px;
+    width: 100%;
 }
 
 .discount,.name{
@@ -21,13 +28,14 @@ main{
     
 }
 .discount{
-    padding: 10px;
+    padding: 5px 10px;
     position: absolute;
-    top:50px;
-    right: 425px;
+    top:30px;
+    right: 0px;
     border-radius: 15px;
     display: flex;
     align-items: center;
+    gap:5px;
 }
 .settings-icon{
     width: 25px;
@@ -36,4 +44,9 @@ main{
 .name{
     padding: 10px;
     border-radius: 10px;
+    position: absolute;
+    bottom: 180px;
+}
+.container-description{
+    
 }
