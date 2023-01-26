@@ -20,14 +20,34 @@ main{
 .container-img img{
     border-radius: 15px;
     width: 100%;
+    /* margin-bottom: 20px; */
+    
 }
-.container-img img:hover{
+/* .container-img img:hover{
    opacity: 0.5;
-} 
-/* No funciona el hover de un objeto a otro */
-.container-img img:hover .container-description-p{
-    background-color: black;
+}  */
+.hidden{
+    position:absolute;
+    border:1px solid rgb(226,33,16);
+    height: 87%;
+    display:flex;
+    align-items: center;
+    background-color: rgba(226,33,16,0.7);
+    border-radius: 15px;
+    display:none;
 }
+.p-hidden{
+    
+    padding: 5px 100px;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.is-active{
+    display:flex !important;
+}
+
 
 .discount,.name{
     background-color: rgb(226,33,16);
@@ -55,8 +75,16 @@ main{
     position: absolute;
     bottom: 150px;
 }
+.name-is-active{
+    bottom: 80px !important;
+    
+}
 .container-description p{
    padding: 15px 50px;
+   
+}
+.container-description-p{
+    display:none;
 }
 
 .container-discount{
@@ -68,9 +96,7 @@ main{
     padding-bottom: 10px;
     
 }
-.container-discount button,.p-discount{
-   
-}
+
 .p-discount{
     padding: 10px 5px !important;
 }
